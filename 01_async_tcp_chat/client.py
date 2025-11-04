@@ -43,3 +43,7 @@ if __name__ == "__main__":
         asyncio.run(main())
     except KeyboardInterrupt:
         print("\nClient closed.")
+# /join general
+# /msg general Hello!
+# /rooms
+# /quit
