@@ -1,0 +1,51 @@
+# ==========================================================
+# Advanced Networking Projects (1–8)
+# Consolidated Python Dependencies
+# ==========================================================
+# Tested with Python 3.10+
+# Works on Windows, Linux, and macOS
+# ==========================================================
+
+# 1. Async Multi-Client TCP Chat
+#    Uses asyncio (part of stdlib) → no extra dependency required
+
+# 2. Traceroute
+#    Uses socket, struct (stdlib) → no extra dependency
+
+# 3. Selective Repeat ARQ Simulator
+#    Uses threading, random (stdlib) → no extra dependency
+
+# 4. Distance Vector Routing
+#    Uses only stdlib → no extra dependency
+
+# 5. OSPF Link-State Routing
+#    Uses only stdlib → no extra dependency
+
+# 6. DNS Query Builder & Parser
+#    Uses socket, struct → no extra dependency
+
+# 7. Packet Sniffer with Filters
+#    Requires Scapy for packet capture and decoding
+scapy>=2.4.5
+
+# Optional (Windows only):
+# To support Layer-2 capture in Scapy, install Npcap manually from:
+# https://nmap.org/npcap/
+
+# 8. VLSM Subnet Allocator
+#    Uses ipaddress, csv, argparse → all stdlib
+
+# ==========================================================
+# Optional Utilities for Development / Testing
+# (Not strictly required, but useful)
+# ==========================================================
+
+# colorama — for colored CLI output (optional)
+# colorama>=0.4.6
+
+# rich — for nicer console tables/logging (optional)
+# rich>=13.5.0
+
+# ==========================================================
+# End of file
+# ==========================================================
